@@ -147,7 +147,7 @@ select { width: 100%; background: #f6f7f8; border: 0px; padding: 15px 18px 15px 
 /************************************
     Page section margin padding 
 *************************************/
-.page-section-ptb { padding: 100px 0; }
+.page-section-ptb { padding: 100px 0; direction:rtl;}
 .page-section-pt { padding: 100px 0 0; }
 .page-section-pb { padding: 0 0 100px; }
 .mt-0 { margin-top: 0px; }
@@ -1009,11 +1009,10 @@ div#main { z-index: 1; position: relative; }
 /***************************
           About 1
 ***************************/
-.intro-title .intro-content { position: relative; }
-.intro-title .intro-content .intro-name { padding: 100px 500px 100px 0px; position: relative; z-index: 9;}
-.intro-title .intro-content .intro-img { position: absolute; bottom: 0px; height: auto; right: 0px; }
+.intro-title .intro-content { position: relative; text-align: right; direction: rtl;}
+.intro-title .intro-content .intro-name { padding: 97px 59px 100px 0px; position: relative; z-index: 9;}
+.intro-title .intro-content .intro-img { position: absolute; bottom: 0px; height: auto; left: 0px; }
 .intro-title.dark .intro-content .intro-name { padding: 100px 0px; }
-
 .intro-title .breadcrumb { background: transparent; border-radius: 0; margin-bottom: 0; padding: 0; }
 .intro-title .breadcrumb li.active { color: #ffffff; }
 .intro-title .breadcrumb li a { color: #ffffff; }
